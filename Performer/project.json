@@ -1,0 +1,97 @@
+{
+  "name": "Performer",
+  "description": "Robotic Enterprise Framework",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.Credentials.Activities": "[1.1.6479.13204]",
+    "UiPath.Excel.Activities": "[2.11.4]",
+    "UiPath.Mail.Activities": "[1.12.3]",
+    "UiPath.System.Activities": "[21.10.3]",
+    "UiPath.Testing.Activities": "[1.4.4]",
+    "UiPath.UIAutomation.Activities": "[21.10.4]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "21.10.4.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "36e537ac-7127-46f0-97a1-0c0b57698d97",
+        "dataVariationFilePath": ".variations\\Tests_Tests.json",
+        "fileName": "Tests\\GeneralTestCase.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "936dcfd4-e986-4394-8b2c-e90a84c1408f",
+        "fileName": "Tests\\GetTransactionDataTestCase.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "fcc0814b-d048-43a6-a04a-542ce93150b8",
+        "fileName": "Tests\\InitAllApplicationsTestCase.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "da42199d-a658-4222-93c4-88e520c4bf77",
+        "fileName": "Tests\\InitAllSettingsTestCase.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "389b896b-3cbc-4a8e-ae85-a690afd9bfb4",
+        "fileName": "Tests\\MainTestCase.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "e5326967-a1a2-48db-8479-4ad2b21feaae",
+        "fileName": "Tests\\ProcessTestCase.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "db13dfba-ae79-4023-8f2c-5bd4a09fd808",
+        "fileName": "Tests\\WorkflowTestCaseTemplate.xaml"
+      }
+    ],
+    "modernBehavior": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "8cccb175-b9d3-42bd-b4e3-f5a0d92f2746",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Legacy"
+}
